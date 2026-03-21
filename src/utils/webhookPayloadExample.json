@@ -1,0 +1,26 @@
+
+{
+  "patientInfo": {
+    "firstName": "Jean",
+    "lastName": "Dupont",
+    "email": "jean.dupont@exemple.fr",
+    "phoneNumber": "0612345678",
+    "address": "123 Rue de la République",
+    "postalCode": "75001",
+    "city": "Paris",
+    "submittedAt": "2024-04-15T10:30:00.000Z"
+  },
+  "imagesCount": 3,
+  "imagesUrls": [
+    "https://pnqtfvpdawgrjxigrvby.supabase.co/storage/v1/object/public/dental_images/patient1-tooth1.jpg",
+    "https://pnqtfvpdawgrjxigrvby.supabase.co/storage/v1/object/public/dental_images/patient1-tooth2.jpg",
+    "https://pnqtfvpdawgrjxigrvby.supabase.co/storage/v1/object/public/dental_images/patient1-tooth3.jpg"
+  ],
+  "patientId": "550e8400-e29b-41d4-a716-446655440000",
+  "metadata": {
+    "source": "emalya-form",
+    "version": "1.0.0",
+    "timestamp": "2024-04-15T10:35:22.120Z",
+    "sessionId": "a1b2c3d4e5f6g7h8i9j0"
+  }
+}

@@ -1,0 +1,6 @@
+
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#FBFAF3"/>
+  <path d="M-200 500C100 300 400 900 800 300C1200 -300 1400 400 1600 200" stroke="#FEEBDA" stroke-width="120" stroke-linecap="round"/>
+  <path d="M-100 600C200 400 500 1000 900 400C1300 -200 1500 500 1700 300" stroke="#FFBBAB" stroke-width="40" stroke-opacity="0.2" stroke-linecap="round"/>
+</svg>
