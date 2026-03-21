@@ -1,7 +1,11 @@
 /**
  * Brevo — usage serveur uniquement (clé jamais exposée au navigateur).
- * Variables : BREVO_API_KEY, optionnel BREVO_LIST_ID (liste d’inscription post-RDV).
+ * Variables : BREVO_API_KEY (ou VITE_BREVO_API_KEY en secours), optionnel BREVO_LIST_ID.
  */
+
+export function getBrevoApiKey(): string | undefined {
+  return process.env.BREVO_API_KEY || process.env.VITE_BREVO_API_KEY;
+}
 
 interface BrevoContactParams {
   email: string;
@@ -12,7 +16,7 @@ interface BrevoContactParams {
 }
 
 export async function addBrevoContactServer(params: BrevoContactParams): Promise<{ ok: boolean; error?: string }> {
-  const apiKey = process.env.BREVO_API_KEY;
+  const apiKey = getBrevoApiKey();
   if (!apiKey) {
     return { ok: false, error: "BREVO_API_KEY manquante" };
   }

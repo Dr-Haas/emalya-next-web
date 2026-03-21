@@ -20,7 +20,7 @@ Sans préparation, on ne « rétrécit » pas massivement une dent trop large : 
 
 ## Lien avec le Pack Signature
 
-Le **Pack Signature** (composite) correspond à cette ambition : un embellissement maîtrisé, au tarif à partir de **5 000 €**, lorsque les conditions cliniques sont réunies.
+Le **[Pack Signature](/facettes-composites-naturelles)** (composite) correspond à cette ambition : un embellissement maîtrisé, au tarif à partir de **5 000 €**, lorsque les conditions cliniques sont réunies. Pour comparer avec la céramique longue durée, voir le **[Pack Premium](/facettes-ceramiques-premium)** et l’article [composite ou céramique ?](/blog/composite-ou-ceramique). Vous pouvez aussi **[prendre rendez-vous](/rendez-vous)** ou essayer le **[simulateur de sourire](/simulateur-sourire)**.
 
 ---
 

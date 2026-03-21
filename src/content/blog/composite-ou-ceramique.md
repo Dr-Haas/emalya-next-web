@@ -17,9 +17,9 @@ Idéal pour **corriger** sans « refaire » le sourire. Tarif indicatif à parti
 
 Lorsque la **matière** et la **stabilité de teinte** priment, les facettes céramique ultra-fines sur émail intact s’inscrivent dans le long terme. Tarif indicatif à partir de **10 000 €**.
 
-## Maillage interne
+## Aller plus loin
 
-Pour aller plus loin : lisez aussi notre article sur les [facettes composites sans taille](/blog/facettes-composites-sans-taille) et consultez les pages [Pack Signature](/facettes-composites-naturelles) et [Pack Premium](/facettes-ceramiques-premium).
+Pour approfondir : [facettes composites sans taille — ce qui est réaliste](/blog/facettes-composites-sans-taille), pages détaillées [Pack Signature](/facettes-composites-naturelles) et [Pack Premium](/facettes-ceramiques-premium), [simulateur de sourire](/simulateur-sourire) et [prise de rendez-vous](/rendez-vous).
 
 ---
 

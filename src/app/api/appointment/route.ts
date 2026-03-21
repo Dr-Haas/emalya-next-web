@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { addBrevoContactServer } from "@/integrations/brevo/server";
+import { addBrevoContactServer, getBrevoApiKey } from "@/integrations/brevo/server";
 
 const DEFAULT_N8N =
   "https://dikio.app.n8n.cloud/webhook/742140a4-eb6e-4847-b48c-891a5d1dd846";
@@ -77,7 +77,7 @@ export async function POST(request: Request) {
     },
   });
 
-  if (!brevo.ok && process.env.BREVO_API_KEY) {
+  if (!brevo.ok && getBrevoApiKey()) {
     console.warn("Brevo contact non créé:", brevo.error);
   }
 

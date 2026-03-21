@@ -3,6 +3,7 @@ import Link from "next/link";
 import { getAllPosts } from "@/lib/blog";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { ROUTES } from "@/lib/routes";
 
 export const metadata: Metadata = {
   title: "Blog — conseils & techniques",
@@ -18,14 +19,33 @@ export default function BlogIndexPage() {
       <Navbar />
       <main className="flex-1 pt-28 pb-16 container max-w-3xl mx-auto px-4">
         <h1 className="text-4xl font-bold text-emalya-blue mb-4">Blog</h1>
-        <p className="text-emalya-gray mb-12">
+        <p className="text-emalya-gray mb-6">
           Articles techniques pour comprendre nos protocoles — avec liens vers le{" "}
-          <Link href="/facettes-composites-naturelles" className="text-emalya-blue underline">
+          <Link href={ROUTES.packSignature} className="text-emalya-blue underline font-medium">
             Pack Signature
           </Link>{" "}
           et le{" "}
-          <Link href="/facettes-ceramiques-premium" className="text-emalya-blue underline">
+          <Link href={ROUTES.packPremium} className="text-emalya-blue underline font-medium">
             Pack Premium
+          </Link>
+          .
+        </p>
+        <p className="text-emalya-gray mb-12 text-sm md:text-base">
+          Accès rapides :{" "}
+          <Link href={ROUTES.rendezVous} className="text-emalya-blue underline">
+            rendez-vous
+          </Link>
+          ,{" "}
+          <Link href={ROUTES.simulateur} className="text-emalya-blue underline">
+            simulateur de sourire
+          </Link>
+          ,{" "}
+          <Link href={ROUTES.formation} className="text-emalya-blue underline">
+            formation
+          </Link>
+          ,{" "}
+          <Link href={ROUTES.facilitationPaiement} className="text-emalya-blue underline">
+            paiement en plusieurs fois
           </Link>
           .
         </p>
