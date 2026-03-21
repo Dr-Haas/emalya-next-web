@@ -94,7 +94,7 @@ const ProductsShowcase = () => {
       icon: <Leaf className="w-6 h-6 text-emalya-blue" />,
       badge: "Embellissement naturel",
       title: "Pack Signature",
-      subtitle: "Composite conservateur — le sourire affiné, sans compromis",
+      subtitle: "Composite conservateur   le sourire affiné, sans compromis",
       description:
         "Protocole ultra-conservateur : ajout ciblé de composite pour harmoniser le sourire, sans meuler la dent naturelle. Idéal lorsque l’alignement et le volume le permettent.",
       price: "À partir de 5 000 €",
@@ -112,7 +112,7 @@ const ProductsShowcase = () => {
       icon: <Gem className="w-6 h-6 text-white" />,
       badge: "Transformation durable",
       title: "Pack Premium",
-      subtitle: "Facettes céramique sans préparation — pérennité & éclat",
+      subtitle: "Facettes céramique sans préparation   pérennité & éclat",
       description:
         "Facettes ultra-fines collées sur émail intact : transformation plus globale, stabilité de teinte et résistance supérieures au composite, toujours sans taille préalable.",
       price: "À partir de 10 000 €",
@@ -135,7 +135,7 @@ const ProductsShowcase = () => {
           <h2 className="text-emalya-blue mb-4">✨ Nos protocoles exclusifs</h2>
           <p className="text-lg text-emalya-gray max-w-3xl mx-auto mb-6">
             Deux parcours tarifés, sans taille des dents : chacun correspond à un niveau d’ambition esthétique
-            et à des critères d’éligibilité stricts — nous ne « faisons pas rentrer » un cas dans un protocole qui ne lui convient pas.
+            et à des critères d’éligibilité stricts   nous ne « faisons pas rentrer » un cas dans un protocole qui ne lui convient pas.
           </p>
           <div className="flex flex-wrap justify-center gap-4 text-lg">
             <span className="bg-emalya-cream px-4 py-2 rounded-full text-emalya-blue font-medium">

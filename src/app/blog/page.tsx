@@ -7,7 +7,7 @@ import { ROUTES } from "@/lib/routes";
 import { BlogPostCard } from "@/components/blog/BlogPostCard";
 
 export const metadata: Metadata = {
-  title: "Blog — conseils & techniques",
+  title: "Blog   conseils & techniques",
   description:
     "Articles sur les facettes sans taille, le choix composite ou céramique, et le parcours patient ÉMALYA.",
 };

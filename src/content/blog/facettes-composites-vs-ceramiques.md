@@ -45,6 +45,6 @@ La céramique s’impose quand :
 
 Dans certains cas, les deux options sont cliniquement envisageables. C’est précisément le rôle de la visio consultation offerte chez ÉMALYA : analyser votre sourire, comprendre vos attentes, et vous orienter vers le protocole le plus adapté.
 
-La sélection rigoureuse des cas est au cœur de la philosophie ÉMALYA. Nous ne proposons pas un traitement par défaut — nous proposons le bon traitement.
+La sélection rigoureuse des cas est au cœur de la philosophie ÉMALYA. Nous ne proposons pas un traitement par défaut   nous proposons le bon traitement.
 
 Pour aller plus loin : [Pack Signature](/facettes-composites-naturelles), [Pack Premium](/facettes-ceramiques-premium), [prendre rendez-vous](/rendez-vous).

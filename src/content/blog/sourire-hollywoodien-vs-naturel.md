@@ -30,7 +30,7 @@ Un sourire naturel n’est pas synonyme de sourire imparfait. C’est un sourire
 
 ## La philosophie ÉMALYA
 
-Chez ÉMALYA, la référence n’est pas la star hollywoodienne. C’est **votre** visage, **votre** histoire, **votre** sourire — optimisé pour être la meilleure version de lui-même.
+Chez ÉMALYA, la référence n’est pas la star hollywoodienne. C’est **votre** visage, **votre** histoire, **votre** sourire   optimisé pour être la meilleure version de lui-même.
 
 Nous refusons les cas où la demande n’est pas en accord avec la morphologie ou où le résultat serait forcément artificiel. Ce positionnement nous différencie. Et il explique pourquoi nos patients ressemblent toujours à eux-mêmes, en mieux.
 

@@ -10,14 +10,14 @@ export function BlogArticleCTA() {
           <Link href={ROUTES.packSignature} className="text-emalya-blue font-medium hover:underline">
             Pack Signature (composite conservateur)
           </Link>
-          {" — "}
+          {"   "}
           <span className="text-sm">à partir de 5 000 €</span>
         </li>
         <li>
           <Link href={ROUTES.packPremium} className="text-emalya-blue font-medium hover:underline">
             Pack Premium (céramique)
           </Link>
-          {" — "}
+          {"   "}
           <span className="text-sm">à partir de 10 000 €</span>
         </li>
         <li>

@@ -5,13 +5,13 @@ description: "Minimal prep vs taille classique : ce que change la micro-prépara
 category: "Technique"
 ---
 
-Quand on parle de facettes céramiques, beaucoup de patients imaginent des dents fortement taillées, presque réduites à néant, avant que la prothèse soit posée. Cette image appartient aux techniques d’une autre époque. Aujourd’hui, il existe les **facettes céramiques minimal prep** — et la différence est radicale.
+Quand on parle de facettes céramiques, beaucoup de patients imaginent des dents fortement taillées, presque réduites à néant, avant que la prothèse soit posée. Cette image appartient aux techniques d’une autre époque. Aujourd’hui, il existe les **facettes céramiques minimal prep**   et la différence est radicale.
 
 ## La taille classique vs la préparation minimale
 
 Dans une technique classique, le praticien réduit l’épaisseur de la dent de **0,5 à 1 mm** pour que la facette céramique s’intègre sans surcépaisseur. C’est une décision irréversible.
 
-Dans le protocole ÉMALYA Premium, la préparation est limitée à **0,2–0,3 mm** — soit l’épaisseur d’une feuille de papier. Cette micro-préparation sert uniquement à optimiser l’adhésion et l’intégration esthétique. Elle ne compromet pas l’intégrité de la dent.
+Dans le protocole ÉMALYA Premium, la préparation est limitée à **0,2–0,3 mm**   soit l’épaisseur d’une feuille de papier. Cette micro-préparation sert uniquement à optimiser l’adhésion et l’intégration esthétique. Elle ne compromet pas l’intégrité de la dent.
 
 ## Pourquoi une micro-préparation même minimale ?
 
@@ -32,6 +32,6 @@ Au-delà de l’invasivité (très légèrement supérieure), la céramique offr
 
 ## Pour qui est fait le Pack ÉMALYA Premium ?
 
-Ce protocole est destiné aux patients dont les dents sont alignées, de volume harmonieux, et qui souhaitent un résultat esthétique maximal sur le long terme. C’est l’option haut de gamme — le choix de l’excellence durable.
+Ce protocole est destiné aux patients dont les dents sont alignées, de volume harmonieux, et qui souhaitent un résultat esthétique maximal sur le long terme. C’est l’option haut de gamme   le choix de l’excellence durable.
 
 Découvrir le [Pack Premium](/facettes-ceramiques-premium) et [prendre rendez-vous](/rendez-vous).

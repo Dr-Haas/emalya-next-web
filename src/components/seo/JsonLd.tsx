@@ -7,7 +7,7 @@ const organizationJsonLd = {
   name: "ÉMALYA",
   url: site,
   description:
-    "Sublimer le sourire sans altérer la dent — protocoles esthétiques conservateurs (Pack Signature, Pack Premium).",
+    "Sublimer le sourire sans altérer la dent   protocoles esthétiques conservateurs (Pack Signature, Pack Premium).",
   medicalSpecialty: "Dentisterie esthétique",
 };
 

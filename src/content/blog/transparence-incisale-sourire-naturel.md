@@ -9,7 +9,7 @@ Vous avez déjà vu des sourires refaits qui semblaient « faux », trop blancs,
 
 ## Qu’est-ce que la transparence incisale ?
 
-Les dents naturelles ne sont pas uniformes d’un bout à l’autre. Leur corps est plus opaque, riche en dentine. Mais leur bord libre — la partie qui « coupe » — est plus translucide, laissant passer la lumière d’une manière particulière.
+Les dents naturelles ne sont pas uniformes d’un bout à l’autre. Leur corps est plus opaque, riche en dentine. Mais leur bord libre   la partie qui « coupe »   est plus translucide, laissant passer la lumière d’une manière particulière.
 
 C’est ce qu’on appelle la **transparence incisale** : un liseré quasi transparent au bord des incisives, qui donne cette profondeur optique caractéristique des dents vivantes.
 
@@ -35,4 +35,4 @@ Avant de vous lancer dans un traitement esthétique, posez une question simple �
 
 Si la réponse est vague ou si le praticien n’en a jamais entendu parler : passez votre chemin.
 
-[Article associé](/blog/sourire-hollywoodien-vs-naturel) — [Pack Signature](/facettes-composites-naturelles).
+[Article associé](/blog/sourire-hollywoodien-vs-naturel)   [Pack Signature](/facettes-composites-naturelles).

@@ -5,7 +5,7 @@ description: "Visio offerte, photos à préparer, déroulé au cabinet : tout sa
 category: "Guide patient"
 ---
 
-Vous envisagez de transformer votre sourire mais vous ne savez pas par où commencer ? Chez ÉMALYA, la première étape est une **visio consultation offerte** — un échange privilégié avec le Dr Haas pour évaluer votre situation et définir les possibilités.
+Vous envisagez de transformer votre sourire mais vous ne savez pas par où commencer ? Chez ÉMALYA, la première étape est une **visio consultation offerte**   un échange privilégié avec le Dr Haas pour évaluer votre situation et définir les possibilités.
 
 ## Pourquoi une visio et pas un rendez-vous physique ?
 
@@ -49,4 +49,4 @@ Avec le Pack Premium (céramique), la première séance sert à la préparation 
 
 La visio consultation est **offerte** et sans engagement. C’est l’étape zéro pour savoir si vous êtes éligible et ce qu’ÉMALYA peut faire pour votre sourire.
 
-[Prendre rendez-vous](/rendez-vous) — [notice patient](/notice-patient).
+[Prendre rendez-vous](/rendez-vous)   [notice patient](/notice-patient).

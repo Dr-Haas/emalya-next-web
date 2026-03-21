@@ -2,7 +2,7 @@
 import { createClient } from "@supabase/supabase-js";
 import type { Database } from "./types";
 
-/** Valeurs factices uniquement si les variables manquent (ex. build CI) — le simulateur nécessite les vraies clés en prod. */
+/** Valeurs factices uniquement si les variables manquent (ex. build CI)   le simulateur nécessite les vraies clés en prod. */
 const SUPABASE_URL =
   process.env.NEXT_PUBLIC_SUPABASE_URL?.trim() || "https://placeholder.supabase.co";
 const SUPABASE_PUBLISHABLE_KEY =

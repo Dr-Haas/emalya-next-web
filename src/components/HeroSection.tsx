@@ -36,7 +36,7 @@ const HeroSection = () => {
 
           <p className="hero-subtitle text-emalya-gray text-lg md:text-xl mb-10 opacity-0">
             Une sélection rigoureuse des indications et un protocole <strong>sur-mesure</strong> pour deux offres exclusives :
-            le <strong>Pack Signature</strong> et le <strong>Pack Premium</strong> — sans taille des dents, dans le respect absolu de l’émail.
+            le <strong>Pack Signature</strong> et le <strong>Pack Premium</strong>   sans taille des dents, dans le respect absolu de l’émail.
           </p>
 
           <div className="hero-cta flex flex-col sm:flex-row gap-4 justify-center">

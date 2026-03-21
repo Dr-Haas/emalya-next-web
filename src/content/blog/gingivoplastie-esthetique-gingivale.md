@@ -28,8 +28,8 @@ Si on pose des facettes sur des gencives irrégulières, le résultat sera toujo
 
 ## L’harmonie rose et blanche
 
-Les professionnels de l’esthétique dentaire parlent d’« esthétique blanche » (les dents) et d’« esthétique rose » (les gencives). Un beau sourire nécessite les deux. C’est cette vision globale qu’adopte ÉMALYA — le sourire pensé dans son ensemble, pas dent par dent.
+Les professionnels de l’esthétique dentaire parlent d’« esthétique blanche » (les dents) et d’« esthétique rose » (les gencives). Un beau sourire nécessite les deux. C’est cette vision globale qu’adopte ÉMALYA   le sourire pensé dans son ensemble, pas dent par dent.
 
 ## Conclusion
 
-Ne négligez pas vos gencives. Elles sont la moitié de votre sourire. Chez ÉMALYA, chaque protocole commence par une analyse complète de l’ensemble — gencives incluses.
+Ne négligez pas vos gencives. Elles sont la moitié de votre sourire. Chez ÉMALYA, chaque protocole commence par une analyse complète de l’ensemble   gencives incluses.

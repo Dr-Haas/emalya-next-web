@@ -1,5 +1,5 @@
 /**
- * Brevo — usage serveur uniquement (clé jamais exposée au navigateur).
+ * Brevo   usage serveur uniquement (clé jamais exposée au navigateur).
  * Variables : BREVO_API_KEY (ou VITE_BREVO_API_KEY en secours), optionnel BREVO_LIST_ID.
  */
 

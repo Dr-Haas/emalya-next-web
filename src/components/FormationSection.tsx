@@ -21,7 +21,7 @@ const FormationSection = () => {
           <h2 className="text-emalya-blue mb-4">Formation ÉMALYA</h2>
           <p className="text-lg text-emalya-gray">
             Des parcours structurés pour les praticiens qui souhaitent maîtriser nos protocoles conservateurs :
-            sélection des cas, gestuelle, finition — avec la même exigence clinique que sur nos patients.
+            sélection des cas, gestuelle, finition   avec la même exigence clinique que sur nos patients.
           </p>
         </div>
 

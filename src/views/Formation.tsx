@@ -28,7 +28,7 @@ const Formation = () => {
             </h1>
             <p className="text-lg text-emalya-gray leading-relaxed">
               Des modules pour les chirurgiens-dentistes et équipes qui souhaitent intégrer nos protocoles
-              conservateurs — avec la même rigueur que pour nos patients : zéro compromis sur l’émail, des
+              conservateurs   avec la même rigueur que pour nos patients : zéro compromis sur l’émail, des
               indications assumées et une finition irréprochable.
             </p>
           </div>

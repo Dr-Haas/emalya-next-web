@@ -68,12 +68,12 @@ export default function FacettesCeramiquePage() {
               </h1>
 
               <p className="text-xl md:text-2xl text-white/90 mb-4 font-medium">
-                Facettes céramique sans préparation — à partir de 10 000 €
+                Facettes céramique sans préparation   à partir de 10 000 €
               </p>
 
               <p className="text-lg text-white/80 max-w-3xl mx-auto mb-10">
                 Le Pack Premium s’adresse aux patients qui veulent structurer leur sourire dans la durée, avec des facettes
-                céramique ultra-fines collées sur dents intactes — sans taille préalable, pour une transformation plus globale
+                céramique ultra-fines collées sur dents intactes   sans taille préalable, pour une transformation plus globale
                 et plus pérenne que le composite seul.
               </p>
 

@@ -9,7 +9,7 @@ Beaucoup de patients hésitent à franchir le pas de l’esthétique dentaire pa
 
 ## Pourquoi certaines techniques abiment les dents
 
-Les facettes céramiques classiques nécessitent de réduire l’épaisseur de la dent de 0,5 à 1 mm pour que la facette s’intègre correctement. Cette taille est **irréversible** : une fois réduite, la dent aura toujours besoin d’une prothèse. Les couronnes, elles, nécessitent de réduire la dent de 360° — une destruction encore plus importante.
+Les facettes céramiques classiques nécessitent de réduire l’épaisseur de la dent de 0,5 à 1 mm pour que la facette s’intègre correctement. Cette taille est **irréversible** : une fois réduite, la dent aura toujours besoin d’une prothèse. Les couronnes, elles, nécessitent de réduire la dent de 360°   une destruction encore plus importante.
 
 Ces techniques sont justifiées dans certains cas cliniques, mais proposées à des patients qui n’en ont pas besoin, elles constituent une atteinte inutile au capital dentaire.
 
@@ -17,7 +17,7 @@ Ces techniques sont justifiées dans certains cas cliniques, mais proposées à 
 
 ### Le composite sans taille (ÉMALYA Signature)
 
-C’est l’option 100% non invasive. Le composite est ajouté sur la dent sans aucun meulage. La dent naturelle reste totalement intacte. C’est réversible, réparable, et le résultat peut être aussi étonnant qu’une transformation par facettes céramiques — à condition d’avoir le bon praticien.
+C’est l’option 100% non invasive. Le composite est ajouté sur la dent sans aucun meulage. La dent naturelle reste totalement intacte. C’est réversible, réparable, et le résultat peut être aussi étonnant qu’une transformation par facettes céramiques   à condition d’avoir le bon praticien.
 
 ### Les facettes céramiques minimal prep (ÉMALYA Premium)
 
@@ -38,4 +38,4 @@ Ces techniques ne fonctionnent pas dans tous les cas. La dentition doit être su
 
 Transformer son sourire sans abimer ses dents n’est plus un vœu pieux : c’est une réalité clinique possible dans les bonnes indications. Chez ÉMALYA, c’est la philosophie fondatrice. Sublimer sans altérer.
 
-[Pack Signature](/facettes-composites-naturelles) — [Pack Premium](/facettes-ceramiques-premium) — [rendez-vous](/rendez-vous).
+[Pack Signature](/facettes-composites-naturelles)   [Pack Premium](/facettes-ceramiques-premium)   [rendez-vous](/rendez-vous).

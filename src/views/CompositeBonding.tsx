@@ -57,7 +57,7 @@ const CompositeBonding = () => {
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-emalya-blue">🌿 Pack Signature</h1>
 
               <p className="text-xl md:text-2xl text-emalya-blue/80 mb-4 font-medium">
-                Composite conservateur — à partir de 5 000 €
+                Composite conservateur   à partir de 5 000 €
               </p>
 
               <p className="text-lg text-emalya-gray max-w-3xl mx-auto mb-10">

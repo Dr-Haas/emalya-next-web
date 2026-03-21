@@ -7,11 +7,11 @@ category: "Conseils"
 
 C’est l’une des questions les plus fréquentes chez les patients qui envisagent des facettes composites : **combien de temps vont-elles tenir ?**
 
-La réponse honnête : ça dépend. De la technique, du praticien, de vos habitudes — et de l’entretien que vous apportez à votre sourire.
+La réponse honnête : ça dépend. De la technique, du praticien, de vos habitudes   et de l’entretien que vous apportez à votre sourire.
 
 ## La durée de vie moyenne
 
-Des facettes composites bien réalisées tiennent en moyenne **5 à 8 ans**. Certains patients les gardent plus de 10 ans sans problème. D’autres ont des réparations à faire au bout de 3 ans — souvent liées à des habitudes problématiques.
+Des facettes composites bien réalisées tiennent en moyenne **5 à 8 ans**. Certains patients les gardent plus de 10 ans sans problème. D’autres ont des réparations à faire au bout de 3 ans   souvent liées à des habitudes problématiques.
 
 ## Ce qui accélère l’usure
 
@@ -35,4 +35,4 @@ C’est là que le composite bat la céramique à plate couture. Une facette com
 
 Avec les bons réflexes, vos facettes composites ÉMALYA vous accompagneront des années. Et si une retouche est nécessaire, elle se fait simplement, sans repartir à zéro.
 
-[Notice patient](/notice-patient) — [Pack Signature](/facettes-composites-naturelles).
+[Notice patient](/notice-patient)   [Pack Signature](/facettes-composites-naturelles).
