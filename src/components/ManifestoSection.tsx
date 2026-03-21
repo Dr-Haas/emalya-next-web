@@ -1,6 +1,6 @@
 "use client";
 
-import { Check, X } from 'lucide-react';
+import { Check, X } from "lucide-react";
 import { useGsapFadeIn, useGsapStagger } from '@/hooks/useGsapAnimations';
 
 const ManifestoSection = () => {
@@ -18,18 +18,19 @@ const ManifestoSection = () => {
           </h2>
           
           <p ref={textRef} className="text-lg mb-10">
-            Nous avons fait le choix d'une dentisterie esthétique conservatrice, respectueuse de la dent naturelle.
+            <strong>Sublimer sans altérer</strong> : nous ne meulons pas vos dents pour « gagner du temps ».
+            Chaque indication est pesée, chaque geste est calibré pour préserver l’intégrité de votre émail.
           </p>
           
           <div ref={cardsRef} className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             <div className="manifesto-card bg-white/10 rounded-xl p-6 backdrop-blur-sm">
-              <h3 className="text-xl font-bold mb-3 text-emalya-pink">🌿 Composite Emalya</h3>
-              <p className="text-white/90">Pour l'embellissement subtil et naturel</p>
+              <h3 className="text-xl font-bold mb-3 text-emalya-pink">🌿 Pack Signature</h3>
+              <p className="text-white/90">Embellissement naturel par composite — dent par dent, invisible au quotidien</p>
             </div>
             
             <div className="manifesto-card bg-white/10 rounded-xl p-6 backdrop-blur-sm">
-              <h3 className="text-xl font-bold mb-3 text-emalya-pink">💎 Facettes Céramiques Emalya</h3>
-              <p className="text-white/90">Pour une transformation durable et pérenne</p>
+              <h3 className="text-xl font-bold mb-3 text-emalya-pink">💎 Pack Premium</h3>
+              <p className="text-white/90">Transformation durable par facettes céramique ultra-fines, sans préparation</p>
             </div>
           </div>
           

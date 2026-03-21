@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight } from "lucide-react";
 import { useEffect, useRef } from 'react';
 import Link from 'next/link';
 import gsap from 'gsap';
@@ -31,17 +31,17 @@ const HeroSection = () => {
       <div className="container max-w-6xl mx-auto px-4 md:px-8">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="hero-title text-emalya-blue font-bold text-4xl md:text-5xl lg:text-6xl mb-6 opacity-0">
-            Sublimez votre sourire, préservez vos dents.
+            Sublimer le sourire. Sans altérer la dent.
           </h1>
 
           <p className="hero-subtitle text-emalya-gray text-lg md:text-xl mb-10 opacity-0">
-            ÉMALYA propose deux approches esthétiques conservatrices : le <strong>Composite Emalya</strong> pour embellir naturellement,
-            et les <strong>Facettes Céramiques Emalya</strong> pour transformer durablement, sans aucune taille des dents.
+            Une sélection rigoureuse des indications et un protocole <strong>sur-mesure</strong> pour deux offres exclusives :
+            le <strong>Pack Signature</strong> et le <strong>Pack Premium</strong> — sans taille des dents, dans le respect absolu de l’émail.
           </p>
 
           <div className="hero-cta flex flex-col sm:flex-row gap-4 justify-center">
             <a href="#techniques" className="btn-primary inline-flex items-center justify-center gap-2 group opacity-0">
-              Découvrir nos techniques
+              Découvrir nos protocoles
               <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
             </a>
 

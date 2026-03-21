@@ -60,21 +60,21 @@ export default function FacettesCeramiquePage() {
             <div className="max-w-4xl mx-auto text-center">
               <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
                 <Gem className="w-5 h-5 text-emalya-pink" />
-                <span className="text-sm font-medium">Transformation durable</span>
+                <span className="text-sm font-medium">Pack Premium</span>
               </div>
 
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-                Facettes Céramiques Emalya
+                💎 Pack Premium
               </h1>
 
               <p className="text-xl md:text-2xl text-white/90 mb-4 font-medium">
-                La transformation durable du sourire
+                Facettes céramique sans préparation — à partir de 10 000 €
               </p>
 
               <p className="text-lg text-white/80 max-w-3xl mx-auto mb-10">
-                Les Facettes Céramiques Emalya sans préparation sont destinées aux patients souhaitant
-                modifier réellement l&apos;esthétique de leur sourire, tout en conservant une approche 100% conservatrice.
-                Elles permettent une transformation plus globale et plus durable que le composite.
+                Le Pack Premium s’adresse aux patients qui veulent structurer leur sourire dans la durée, avec des facettes
+                céramique ultra-fines collées sur dents intactes — sans taille préalable, pour une transformation plus globale
+                et plus pérenne que le composite seul.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -172,7 +172,7 @@ export default function FacettesCeramiquePage() {
         <section className="section bg-emalya-offwhite">
           <div className="container">
             <h2 className="text-3xl md:text-4xl font-bold text-emalya-blue mb-12 text-center">
-              Critères d&apos;éligibilité – Facettes Céramiques Emalya no-prep
+              ✅ Critères d&apos;éligibilité – Pack Premium (no-prep)
             </h2>
 
             <p className="text-center text-emalya-gray mb-10 max-w-2xl mx-auto">
@@ -234,7 +234,7 @@ export default function FacettesCeramiquePage() {
             </h2>
 
             <p className="text-xl mb-10 text-white/90 max-w-2xl mx-auto">
-              Découvrez si les Facettes Céramiques Emalya sont adaptées à votre sourire lors d&apos;une consultation personnalisée.
+              Découvrez si le Pack Premium est adapté à votre sourire lors d&apos;une consultation personnalisée.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
@@ -247,8 +247,8 @@ export default function FacettesCeramiquePage() {
               </Button>
 
               <Button variant="outline" className="border-2 border-white bg-transparent text-white hover:bg-white hover:text-emalya-blue px-8 py-6 rounded-xl font-semibold text-lg" asChild>
-                <Link href="/composite-emalya">
-                  Découvrir le Composite Emalya
+                <Link href="/facettes-composites-naturelles">
+                  Découvrir le Pack Signature
                 </Link>
               </Button>
             </div>

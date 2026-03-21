@@ -1,10 +1,10 @@
 "use client";
 
-import React from 'react';
+import React from "react";
 import { Button } from "@/components/ui/button";
 import { CreditCard, Banknote, ExternalLink, ChevronsRight } from "lucide-react";
-import { useRouter } from 'next/navigation';
-import { useGsapFadeIn } from '@/hooks/useGsapAnimations';
+import { useRouter } from "next/navigation";
+import { useGsapFadeIn } from "@/hooks/useGsapAnimations";
 
 const PaymentSection = () => {
   const router = useRouter();

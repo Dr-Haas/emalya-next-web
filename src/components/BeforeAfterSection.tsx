@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useState, useRef, useCallback, useEffect } from 'react';
+import React, { useState, useRef, useCallback, useEffect } from "react";
+import type { StaticImageData } from 'next/image';
 import { Sparkles } from 'lucide-react';
 import Link from 'next/link';
 import { useGsapFadeIn, useGsapStagger } from '@/hooks/useGsapAnimations';
@@ -38,9 +39,13 @@ const cases = [
   }
 ];
 
+function imageSrc(src: string | StaticImageData): string {
+  return typeof src === 'string' ? src : src.src;
+}
+
 interface BeforeAfterSliderProps {
-  beforeImage: string;
-  afterImage: string;
+  beforeImage: string | StaticImageData;
+  afterImage: string | StaticImageData;
 }
 
 const BeforeAfterSlider = ({ beforeImage, afterImage }: BeforeAfterSliderProps) => {
@@ -103,7 +108,7 @@ const BeforeAfterSlider = ({ beforeImage, afterImage }: BeforeAfterSliderProps) 
     >
       {/* After Image (Background) */}
       <img 
-        src={afterImage} 
+        src={imageSrc(afterImage)} 
         alt="Après traitement ÉMALYA" 
         className="absolute inset-0 w-full h-full object-cover"
         draggable={false}
@@ -115,7 +120,7 @@ const BeforeAfterSlider = ({ beforeImage, afterImage }: BeforeAfterSliderProps) 
         style={{ width: `${sliderPosition}%` }}
       >
         <img 
-          src={beforeImage} 
+          src={imageSrc(beforeImage)} 
           alt="Avant traitement ÉMALYA" 
           className="absolute top-0 left-0 h-full object-cover"
           style={{ 

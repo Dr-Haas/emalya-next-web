@@ -1,16 +1,22 @@
 "use client";
 
-import { Check, X, Sparkles, Gem, Clock, Shield, Palette, Target } from 'lucide-react';
-import Link from 'next/link';
+import { Check, X, Sparkles, Gem, Clock, Shield, Palette, Target, Banknote } from "lucide-react";
+import Link from "next/link";
 import { Button } from '@/components/ui/button';
 
 const TechniquesComparison = () => {
   const comparisons = [
     {
+      label: "Tarif indicatif (à partir de)",
+      icon: Banknote,
+      composite: "5 000 €",
+      ceramique: "10 000 €",
+    },
+    {
       label: "Objectif",
       icon: Target,
       composite: "Embellir naturellement",
-      ceramique: "Transformer durablement"
+      ceramique: "Transformer durablement",
     },
     {
       label: "Approche",
@@ -54,7 +60,7 @@ const TechniquesComparison = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-b from-background to-secondary/20">
+    <section id="comparatif" className="py-20 bg-gradient-to-b from-background to-secondary/20">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
@@ -83,7 +89,7 @@ const TechniquesComparison = () => {
                 <Sparkles className="w-6 h-6 text-emerald-500" />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-foreground">Composite Emalya</h3>
+                <h3 className="text-xl font-bold text-foreground">Pack Signature</h3>
                 <p className="text-sm text-muted-foreground">L'art de la subtilité</p>
               </div>
             </div>
@@ -107,7 +113,7 @@ const TechniquesComparison = () => {
               ))}
             </div>
 
-            <Link href="/composite-emalya">
+            <Link href="/facettes-composites-naturelles">
               <Button variant="outline" className="w-full border-emerald-500/30 text-emerald-600 hover:bg-emerald-500/10">
                 En savoir plus
               </Button>
@@ -131,7 +137,7 @@ const TechniquesComparison = () => {
                 <Gem className="w-6 h-6 text-primary" />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-foreground">Facettes Céramiques Emalya</h3>
+                <h3 className="text-xl font-bold text-foreground">Pack Premium</h3>
                 <p className="text-sm text-muted-foreground">L'excellence durable</p>
               </div>
             </div>
@@ -155,7 +161,7 @@ const TechniquesComparison = () => {
               ))}
             </div>
 
-            <Link href="/facettes-ceramique">
+            <Link href="/facettes-ceramiques-premium">
               <Button className="w-full">
                 Découvrir
               </Button>
@@ -168,8 +174,8 @@ const TechniquesComparison = () => {
           <div className="bg-card rounded-2xl border border-border overflow-hidden shadow-lg">
             <div className="grid grid-cols-3 bg-secondary/50 p-4 border-b border-border">
               <div className="font-semibold text-foreground">Critère</div>
-              <div className="font-semibold text-emerald-600 text-center">Composite</div>
-              <div className="font-semibold text-primary text-center">Céramique</div>
+              <div className="font-semibold text-emerald-600 text-center">Pack Signature</div>
+              <div className="font-semibold text-primary text-center">Pack Premium</div>
             </div>
             {comparisons.map((item, index) => (
               <div 
