@@ -1,27 +1,49 @@
 ---
-title: "Facettes composites sans taille : ce qui est réaliste"
-date: "2026-03-15"
-description: "Comprendre ce que recouvre un protocole sans préparation, les critères d’éligibilité et les limites de la technique."
+title: "Facettes composites sans taille : comment ça marche vraiment ?"
+date: "2026-03-20"
+description: "Sans meulage ni préparation : comment le protocole ÉMALYA sculpte le composite directement sur l’émail pour un sourire naturel."
+category: "Technique"
 ---
 
-## Pourquoi « sans taille » change la donne
+Vous entendez souvent parler de facettes dentaires, mais vous craignez qu’on touche à vos dents naturelles ? La technique des **facettes composites sans taille**, pratiquée par le Dr Haas avec le protocole ÉMALYA, est peut-être la réponse à vos questions.
 
-Lorsque l’émail reste intact, on travaille **avec** la morphologie existante : volumes, angles et proportions deviennent le cadre du projet, pas un obstacle à meuler.
+## Qu’est-ce qu’une facette composite sans taille ?
 
-## Indications fréquentes
+Une facette composite sans taille est une fine couche de résine composite sculptée directement sur la surface de votre dent naturelle — sans aucun meulage, sans aucune préparation préalable. La dent est touchée, mais elle n’est jamais réduite.
 
-- légers défauts de contour ou d’harmonie ;
-- alignement déjà satisfaisant ;
-- patient qui recherche un rendu naturel, non « Hollywood ».
+Contrairement aux facettes céramiques classiques, qui nécessitent une taille irréversible de l’émail, le composite est simplement **ajouté par-dessus la dent**.
 
-## Ce qu’il faut accepter
+## Comment se déroule la séance ?
 
-Sans préparation, on ne « rétrécit » pas massivement une dent trop large : on **recompose** dans un périmètre biologique. C’est pourquoi la sélection des cas est centrale.
+Le protocole ÉMALYA Signature se déroule en une seule séance de plusieurs heures. Voici les grandes étapes :
 
-## Lien avec le Pack Signature
+1. **Analyse esthétique et photo** : le Dr Haas évalue l’harmonie de votre sourire dans son contexte facial, les proportions, les axes dentaires, la ligne du sourire.
+2. **Gingivoplastie si nécessaire** : si les contours gingivaux sont irréguliers, un recontourage léger est réalisé pour harmoniser les bases avant de poser les facettes.
+3. **Sculpture du composite** : le matériau est appliqué et sculpté à la main, dent par dent, avec une attention extrême aux micro-détails : transparence incisale, texture, réflexion de la lumière.
+4. **Polissage final** : un polissage minutieux donne au composite son aspect brillant et naturel.
 
-Le **[Pack Signature](/facettes-composites-naturelles)** (composite) correspond à cette ambition : un embellissement maîtrisé, au tarif à partir de **5 000 €**, lorsque les conditions cliniques sont réunies. Pour comparer avec la céramique longue durée, voir le **[Pack Premium](/facettes-ceramiques-premium)** et l’article [composite ou céramique ?](/blog/composite-ou-ceramique). Vous pouvez aussi **[prendre rendez-vous](/rendez-vous)** ou essayer le **[simulateur de sourire](/simulateur-sourire)**.
+## Quels résultats peut-on attendre ?
 
----
+Le résultat est immédiat. En sortant du cabinet, votre sourire est transformé. Les facettes composites bien réalisées sont quasiment indiscernables des dents naturelles — à condition que le praticien maîtrise la technique.
 
-*Article à titre informatif — une consultation est nécessaire pour toute décision thérapeutique.*
+La différence avec un résultat médiocre tient souvent aux mêmes détails : la **transparence incisale** (le bord des dents ne doit pas être opaque), le **contraste chromatique** entre le corps et le bord, et la **texture de surface** qui réfléchit la lumière de manière naturelle.
+
+## Pour qui cette technique est-elle faite ?
+
+Cette technique convient aux patients dont les dents sont déjà raisonnablement alignées, et qui souhaitent :
+
+- Améliorer la forme et les proportions de leurs dents
+- Corriger des imperfections (bords émoussés, asymétries légères)
+- Obtenir un sourire plus lumineux et harmonieux sans traitement invasif
+
+Elle ne convient pas aux dents très désalignées ou aux cas nécessitant une transformation importante du volume.
+
+## Combien de temps durent les facettes composites ?
+
+Avec une bonne hygiène et un suivi régulier, les facettes composites durent **5 à 8 ans** en moyenne. Un polissage annuel est recommandé pour conserver leur éclat. En cas de choc ou d’éclat, elles sont facilement réparables — c’est l’un de leurs grands avantages sur la céramique.
+
+## Conclusion
+
+Les facettes composites sans taille représentent l’option la plus conservatrice pour transformer son sourire. Chez ÉMALYA, ce protocole est réservé aux cas soigneusement sélectionnés, pour garantir un résultat naturel, élégant et durable.
+
+Vous souhaitez savoir si vous êtes éligible ? [Réservez une visio consultation](/rendez-vous).

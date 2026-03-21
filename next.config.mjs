@@ -13,6 +13,11 @@ const nextConfig = {
         destination: "/facettes-ceramiques-premium",
         permanent: true,
       },
+      {
+        source: "/blog/composite-ou-ceramique",
+        destination: "/blog/facettes-composites-vs-ceramiques",
+        permanent: true,
+      },
     ];
   },
 };

@@ -8,6 +8,8 @@ export type BlogPost = {
   date: string;
   description: string;
   content: string;
+  /** Comparatif, Technique, Guide patient, Conseils */
+  category?: string;
 };
 
 const postsDirectory = path.join(process.cwd(), "src/content/blog");
@@ -26,6 +28,7 @@ export function getAllPosts(): BlogPost[] {
         date: String(data.date ?? ""),
         description: String(data.description ?? ""),
         content,
+        category: data.category ? String(data.category) : undefined,
       };
     })
     .sort((a, b) => (a.date < b.date ? 1 : -1));
@@ -42,6 +45,7 @@ export function getPostBySlug(slug: string): BlogPost | null {
       date: String(data.date ?? ""),
       description: String(data.description ?? ""),
       content,
+      category: data.category ? String(data.category) : undefined,
     };
   } catch {
     return null;

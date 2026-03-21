@@ -4,7 +4,6 @@ import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import ManifestoSection from "@/components/ManifestoSection";
 import ProductsShowcase from "@/components/ProductsShowcase";
-import FormationSection from "@/components/FormationSection";
 import TechniquesComparison from "@/components/TechniquesComparison";
 import TechniqueQuiz from "@/components/TechniqueQuiz";
 import ComfortProtectionSection from "@/components/ComfortProtectionSection";
@@ -20,7 +19,6 @@ const Index = () => {
       <HeroSection />
       <ManifestoSection />
       <ProductsShowcase />
-      <FormationSection />
       <ComfortProtectionSection />
       <BeforeAfterSection />
       <TechniquesComparison />

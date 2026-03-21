@@ -27,7 +27,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/#formation" className="text-emalya-gray hover:text-emalya-blue transition-colors">
+                  <Link href={ROUTES.formation} className="text-emalya-gray hover:text-emalya-blue transition-colors">
                     Formation
                   </Link>
                 </li>

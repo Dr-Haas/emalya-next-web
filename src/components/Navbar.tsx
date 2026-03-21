@@ -40,8 +40,6 @@ const Navbar = () => {
 
   const navLinks = [
     { name: "Simuler mon sourire", href: ROUTES.simulateur },
-    { name: "Formation", href: ROUTES.formation },
-    { name: "Blog", href: ROUTES.blog },
     { name: "Émalya Lab", href: ROUTES.emalyaLab },
   ];
 
