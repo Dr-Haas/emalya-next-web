@@ -3,7 +3,7 @@ import Formation from "@/views/Formation";
 
 export const metadata: Metadata = {
   title: "Formation",
-  description: "Parcours de formation pour praticiens   protocoles Pack Signature et Pack Premium.",
+  description: "Parcours de formation pour praticiens   protocoles Facette Composite Emalya et Facettes Céramiques Emalya.",
 };
 
 export default function FormationPage() {

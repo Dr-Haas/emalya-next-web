@@ -51,18 +51,19 @@ const CompositeBonding = () => {
             <div className="max-w-4xl mx-auto text-center">
               <div className="inline-flex items-center gap-2 bg-emalya-blue/10 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
                 <Leaf className="w-5 h-5 text-emalya-blue" />
-                <span className="text-sm font-medium text-emalya-blue">Pack Signature</span>
+                <span className="text-sm font-medium text-emalya-blue">Facette Composite Emalya</span>
               </div>
 
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-emalya-blue">🌿 Pack Signature</h1>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-emalya-blue">🌿 Facette Composite Emalya</h1>
 
               <p className="text-xl md:text-2xl text-emalya-blue/80 mb-4 font-medium">
-                Composite conservateur   à partir de 5 000 €
+                L&apos;embellissement naturel du sourire
               </p>
 
               <p className="text-lg text-emalya-gray max-w-3xl mx-auto mb-10">
-                Le Pack Signature repose sur une technique d’esthétique dentaire ultra-conservatrice : ajout ciblé de composite
-                là où c’est nécessaire pour affiner l’harmonie du sourire, sans meuler la dent naturelle ni dénaturer son caractère.
+                La Facette Composite Emalya est une technique d&apos;esthétique dentaire ultra-conservatrice : ajout ciblé de
+                composite là où c&apos;est nécessaire pour affiner l&apos;harmonie du sourire, sans meuler la dent naturelle
+                ni dénaturer son caractère.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -115,7 +116,7 @@ const CompositeBonding = () => {
             <div className="text-center mb-12">
               <div className="inline-flex items-center gap-2 mb-4">
                 <Sparkles className="w-6 h-6 text-emalya-blue" />
-                <h2 className="text-2xl md:text-3xl font-bold text-emalya-blue">Objectif du Pack Signature</h2>
+                <h2 className="text-2xl md:text-3xl font-bold text-emalya-blue">Objectif de la Facette Composite Emalya</h2>
               </div>
             </div>
 
@@ -197,7 +198,7 @@ const CompositeBonding = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Envie d&apos;un sourire sublimé naturellement ?</h2>
 
             <p className="text-xl mb-10 text-white/90 max-w-2xl mx-auto">
-              Découvrez si le Pack Signature est adapté à votre sourire lors d&apos;une consultation personnalisée.
+              Découvrez si la Facette Composite Emalya est adaptée à votre sourire lors d&apos;une consultation personnalisée.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
@@ -210,7 +211,7 @@ const CompositeBonding = () => {
               </Button>
 
               <Button variant="outline" className="border-2 border-white bg-transparent text-white hover:bg-white hover:text-emalya-blue px-8 py-6 rounded-xl font-semibold text-lg" asChild>
-                <Link href="/facettes-ceramiques-premium">Découvrir le Pack Premium</Link>
+                <Link href="/facettes-ceramiques-premium">Découvrir les Facettes Céramiques Emalya</Link>
               </Button>
             </div>
           </div>

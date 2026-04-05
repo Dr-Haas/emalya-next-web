@@ -24,12 +24,12 @@ const ManifestoSection = () => {
           
           <div ref={cardsRef} className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             <div className="manifesto-card bg-white/10 rounded-xl p-6 backdrop-blur-sm">
-              <h3 className="text-xl font-bold mb-3 text-emalya-pink">🌿 Pack Signature</h3>
+              <h3 className="text-xl font-bold mb-3 text-emalya-pink">🌿 Facette Composite Emalya</h3>
               <p className="text-white/90">Embellissement naturel par composite   dent par dent, invisible au quotidien</p>
             </div>
             
             <div className="manifesto-card bg-white/10 rounded-xl p-6 backdrop-blur-sm">
-              <h3 className="text-xl font-bold mb-3 text-emalya-pink">💎 Pack Premium</h3>
+              <h3 className="text-xl font-bold mb-3 text-emalya-pink">💎 Facettes Céramiques Emalya</h3>
               <p className="text-white/90">Transformation durable par facettes céramique ultra-fines, sans préparation</p>
             </div>
           </div>

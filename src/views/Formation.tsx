@@ -8,8 +8,8 @@ import { ROUTES } from "@/lib/routes";
 const Formation = () => {
   const modules = [
     "Philosophie clinique « sublimer sans altérer » et sélection des cas",
-    "Pack Signature : indications, limites, gestuelle et finition",
-    "Pack Premium : protocole no-prep, empreintes et collaboration prothésiste",
+    "Facette Composite Emalya : indications, limites, gestuelle et finition",
+    "Facettes Céramiques Emalya : protocole no-prep, empreintes et collaboration prothésiste",
     "Communication patient & gestion des attentes",
   ];
 

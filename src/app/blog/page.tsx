@@ -28,11 +28,11 @@ export default function BlogIndexPage() {
             <p className="mx-auto mt-4 max-w-2xl text-lg text-emalya-gray">
               Conseils techniques et guides patients pour comprendre les protocoles{" "}
               <Link href={ROUTES.packSignature} className="font-medium text-emalya-blue underline decoration-emalya-blue/30 underline-offset-2 hover:decoration-emalya-blue">
-                Pack Signature
+                Facette Composite Emalya
               </Link>{" "}
               et{" "}
               <Link href={ROUTES.packPremium} className="font-medium text-emalya-blue underline decoration-emalya-blue/30 underline-offset-2 hover:decoration-emalya-blue">
-                Pack Premium
+                Facettes Céramiques Emalya
               </Link>
               .
             </p>

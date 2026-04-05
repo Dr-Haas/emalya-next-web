@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import FacettesCeramique from "@/views/FacettesCeramique";
 
 export const metadata: Metadata = {
-  title: "Pack Premium   facettes céramique sans préparation",
+  title: "Facettes Céramiques Emalya   facettes céramiques sans préparation",
   description:
-    "Pack Premium (facettes céramique no-prep) à partir de 10 000 €. Transformation durable sur émail intact.",
+    "Facettes Céramiques Emalya : transformation durable sur émail intact.",
   alternates: { canonical: "/facettes-ceramiques-premium" },
 };
 

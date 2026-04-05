@@ -1,17 +1,11 @@
 "use client";
 
-import { Check, X, Sparkles, Gem, Clock, Shield, Palette, Target, Banknote } from "lucide-react";
+import { Check, X, Sparkles, Gem, Clock, Shield, Palette, Target } from "lucide-react";
 import Link from "next/link";
 import { Button } from '@/components/ui/button';
 
 const TechniquesComparison = () => {
   const comparisons = [
-    {
-      label: "Tarif indicatif (à partir de)",
-      icon: Banknote,
-      composite: "5 000 €",
-      ceramique: "10 000 €",
-    },
     {
       label: "Objectif",
       icon: Target,
@@ -89,7 +83,7 @@ const TechniquesComparison = () => {
                 <Sparkles className="w-6 h-6 text-emerald-500" />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-foreground">Pack Signature</h3>
+                <h3 className="text-xl font-bold text-foreground">Facette Composite Emalya</h3>
                 <p className="text-sm text-muted-foreground">L'art de la subtilité</p>
               </div>
             </div>
@@ -137,7 +131,7 @@ const TechniquesComparison = () => {
                 <Gem className="w-6 h-6 text-primary" />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-foreground">Pack Premium</h3>
+                <h3 className="text-xl font-bold text-foreground">Facettes Céramiques Emalya</h3>
                 <p className="text-sm text-muted-foreground">L'excellence durable</p>
               </div>
             </div>
@@ -174,8 +168,8 @@ const TechniquesComparison = () => {
           <div className="bg-card rounded-2xl border border-border overflow-hidden shadow-lg">
             <div className="grid grid-cols-3 bg-secondary/50 p-4 border-b border-border">
               <div className="font-semibold text-foreground">Critère</div>
-              <div className="font-semibold text-emerald-600 text-center">Pack Signature</div>
-              <div className="font-semibold text-primary text-center">Pack Premium</div>
+              <div className="font-semibold text-emerald-600 text-center">Facette Composite Emalya</div>
+              <div className="font-semibold text-primary text-center">Facettes Céramiques Emalya</div>
             </div>
             {comparisons.map((item, index) => (
               <div 

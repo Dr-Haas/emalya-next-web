@@ -8,17 +8,13 @@ export function BlogArticleCTA() {
       <ul className="space-y-3 text-emalya-gray">
         <li>
           <Link href={ROUTES.packSignature} className="text-emalya-blue font-medium hover:underline">
-            Pack Signature (composite conservateur)
+            Facette Composite Emalya
           </Link>
-          {"   "}
-          <span className="text-sm">à partir de 5 000 €</span>
         </li>
         <li>
           <Link href={ROUTES.packPremium} className="text-emalya-blue font-medium hover:underline">
-            Pack Premium (céramique)
+            Facettes Céramiques Emalya
           </Link>
-          {"   "}
-          <span className="text-sm">à partir de 10 000 €</span>
         </li>
         <li>
           <Link href={ROUTES.simulateur} className="text-emalya-blue font-medium hover:underline">

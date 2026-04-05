@@ -34,8 +34,8 @@ const Navbar = () => {
   }, []);
 
   const solutions = [
-    { name: "Pack Premium", href: ROUTES.packPremium, badge: "Transformation" },
-    { name: "Pack Signature", href: ROUTES.packSignature, badge: "Embellissement" },
+    { name: "Facettes Céramiques Emalya", href: ROUTES.packPremium, badge: "Transformation" },
+    { name: "Facette Composite Emalya", href: ROUTES.packSignature, badge: "Embellissement" },
   ];
 
   const navLinks = [

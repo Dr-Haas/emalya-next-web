@@ -4,7 +4,7 @@ import Index from "@/views/Index";
 export const metadata: Metadata = {
   title: "Accueil",
   description:
-    "Pack Signature et Pack Premium : protocoles esthétiques conservateurs sans taille des dents, tarifs dès 5 000 € et 10 000 €.",
+    "Facette Composite Emalya et Facettes Céramiques Emalya : protocoles esthétiques conservateurs sans taille des dents.",
 };
 
 export default function HomePage() {

@@ -11,13 +11,12 @@ interface ProductCardProps {
   title: string;
   subtitle: string;
   description: string;
-  price: string;
   features: string[];
   link: string;
   isPrimary?: boolean;
 }
 
-const ProductCard = ({ icon, badge, title, subtitle, description, price, features, link, isPrimary }: ProductCardProps) => {
+const ProductCard = ({ icon, badge, title, subtitle, description, features, link, isPrimary }: ProductCardProps) => {
   return (
     <div className={`product-card rounded-2xl p-8 md:p-10 flex flex-col h-full transition-all duration-300 hover:shadow-xl ${
       isPrimary 
@@ -63,10 +62,6 @@ const ProductCard = ({ icon, badge, title, subtitle, description, price, feature
       </div>
       
       <div className="mt-auto">
-        <p className={`text-lg font-semibold mb-4 ${isPrimary ? 'text-emalya-pink' : 'text-emalya-blue'}`}>
-          {price}
-        </p>
-        
         <Button 
           asChild
           className={`w-full py-6 rounded-xl font-semibold group ${
@@ -93,11 +88,10 @@ const ProductsShowcase = () => {
     {
       icon: <Leaf className="w-6 h-6 text-emalya-blue" />,
       badge: "Embellissement naturel",
-      title: "Pack Signature",
-      subtitle: "Composite conservateur   le sourire affiné, sans compromis",
+      title: "Facette Composite Emalya",
+      subtitle: "L'embellissement naturel du sourire",
       description:
-        "Protocole ultra-conservateur : ajout ciblé de composite pour harmoniser le sourire, sans meuler la dent naturelle. Idéal lorsque l’alignement et le volume le permettent.",
-      price: "À partir de 5 000 €",
+        "Technique ultra-conservatrice qui consiste à ajouter du composite de manière ciblée pour améliorer l'harmonie du sourire, sans jamais dénaturer son aspect naturel.",
       features: [
         "Aucune taille ni préparation",
         "Aucun meulage de la dent",
@@ -111,11 +105,10 @@ const ProductsShowcase = () => {
     {
       icon: <Gem className="w-6 h-6 text-white" />,
       badge: "Transformation durable",
-      title: "Pack Premium",
-      subtitle: "Facettes céramique sans préparation   pérennité & éclat",
+      title: "Facettes Céramiques Emalya",
+      subtitle: "La transformation durable du sourire",
       description:
-        "Facettes ultra-fines collées sur émail intact : transformation plus globale, stabilité de teinte et résistance supérieures au composite, toujours sans taille préalable.",
-      price: "À partir de 10 000 €",
+        "Facettes céramiques sans préparation pour une transformation plus globale et plus durable. Stabilité de teinte, résistance supérieure et esthétique lumineuse.",
       features: [
         "Aucune taille des dents",
         "Aucune atteinte à l’émail",
@@ -132,10 +125,10 @@ const ProductsShowcase = () => {
     <section id="techniques" className="section bg-gradient-to-b from-emalya-offwhite to-emalya-cream">
       <div className="container">
         <div ref={titleRef} className="text-center mb-6">
-          <h2 className="text-emalya-blue mb-4">✨ Nos protocoles exclusifs</h2>
+          <h2 className="text-emalya-blue mb-4">✨ Nos techniques esthétiques</h2>
           <p className="text-lg text-emalya-gray max-w-3xl mx-auto mb-6">
-            Deux parcours tarifés, sans taille des dents : chacun correspond à un niveau d’ambition esthétique
-            et à des critères d’éligibilité stricts   nous ne « faisons pas rentrer » un cas dans un protocole qui ne lui convient pas.
+            Deux approches esthétiques conservatrices, sans aucune taille des dents ni préparation, 
+            chacune répondant à un objectif précis :
           </p>
           <div className="flex flex-wrap justify-center gap-4 text-lg">
             <span className="bg-emalya-cream px-4 py-2 rounded-full text-emalya-blue font-medium">

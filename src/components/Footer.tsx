@@ -59,12 +59,12 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link href={ROUTES.packSignature} className="text-emalya-gray hover:text-emalya-blue transition-colors">
-                    Pack Signature
+                    Facette Composite Emalya
                   </Link>
                 </li>
                 <li>
                   <Link href={ROUTES.packPremium} className="text-emalya-gray hover:text-emalya-blue transition-colors">
-                    Pack Premium
+                    Facettes Céramiques Emalya
                   </Link>
                 </li>
                 <li>

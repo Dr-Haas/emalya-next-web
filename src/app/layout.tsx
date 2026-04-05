@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     template: "%s | ÉMALYA",
   },
   description:
-    "Deux protocoles exclusifs conservateurs : Pack Signature et Pack Premium. Sélection rigoureuse, sur-mesure, sans taille des dents.",
+    "Deux protocoles exclusifs conservateurs : Facette Composite Emalya et Facettes Céramiques Emalya. Sélection rigoureuse, sur-mesure, sans taille des dents.",
   authors: [{ name: "ÉMALYA" }],
   openGraph: {
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "ÉMALYA",
     title: "ÉMALYA – Sublimer le sourire sans altérer la dent",
     description:
-      "Deux protocoles exclusifs conservateurs : Pack Signature et Pack Premium. Sélection rigoureuse et sur-mesure.",
+      "Deux protocoles exclusifs conservateurs : Facette Composite Emalya et Facettes Céramiques Emalya. Sélection rigoureuse et sur-mesure.",
     images: [{ url: ogImage, width: 1200, height: 630, alt: "ÉMALYA" }],
   },
   twitter: {
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     site: "@emalya",
     title: "ÉMALYA – Sublimer le sourire sans altérer la dent",
     description:
-      "Deux protocoles exclusifs conservateurs : Pack Signature et Pack Premium.",
+      "Deux protocoles exclusifs conservateurs : Facette Composite Emalya et Facettes Céramiques Emalya.",
     images: [ogImage],
   },
   icons: {

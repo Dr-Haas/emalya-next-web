@@ -250,16 +250,16 @@ const TechniqueQuiz = () => {
                   </div>
 
                   <h3 className="text-2xl font-bold mb-4">
-                    {recommendation === "composite" && "Le Pack Signature semble idéal pour vous"}
-                    {recommendation === "ceramic" && "Le Pack Premium vous correspond"}
-                    {recommendation === "both" && "Les deux protocoles peuvent vous convenir"}
+                    {recommendation === "composite" && "La Facette Composite Emalya semble idéale pour vous"}
+                    {recommendation === "ceramic" && "Les Facettes Céramiques Emalya vous correspondent"}
+                    {recommendation === "both" && "Les deux techniques peuvent vous convenir"}
                   </h3>
 
                   <p className="text-muted-foreground mb-8 max-w-lg mx-auto">
                     {recommendation === "composite" &&
-                      "Vous recherchez un embellissement subtil et naturel. Le Pack Signature (composite) permet de corriger les petits défauts tout en préservant l’aspect authentique de votre sourire."}
+                      "Vous recherchez un embellissement subtil et naturel. La Facette Composite Emalya permet de corriger les petits défauts tout en préservant l'aspect authentique de votre sourire."}
                     {recommendation === "ceramic" &&
-                      "Vous souhaitez une transformation durable et lumineuse. Le Pack Premium (céramique) offre un résultat pérenne avec une esthétique haut de gamme."}
+                      "Vous souhaitez une transformation durable et lumineuse. Les Facettes Céramiques Emalya offrent un résultat pérenne avec une esthétique haut de gamme."}
                     {recommendation === "both" &&
                       "Votre profil correspond aux deux approches. Une consultation personnalisée permettra de trancher selon vos caractéristiques dentaires et votre ambition esthétique."}
                   </p>
@@ -268,11 +268,11 @@ const TechniqueQuiz = () => {
                   <div className="flex justify-center gap-8 mb-8">
                     <div className="text-center">
                       <div className="text-3xl font-bold text-emerald-500">{compositeScore}</div>
-                      <div className="text-sm text-muted-foreground">Pack Signature</div>
+                      <div className="text-sm text-muted-foreground">Facette Composite Emalya</div>
                     </div>
                     <div className="text-center">
                       <div className="text-3xl font-bold text-primary">{ceramicScore}</div>
-                      <div className="text-sm text-muted-foreground">Pack Premium</div>
+                      <div className="text-sm text-muted-foreground">Facettes Céramiques Emalya</div>
                     </div>
                   </div>
 
