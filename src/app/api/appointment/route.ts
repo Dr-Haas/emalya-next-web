@@ -1,6 +1,11 @@
 import { NextResponse } from "next/server";
 import { patientSchema, normalizePhone } from "@/lib/appointmentSchema";
-import { appendSheetRow, getSheetsConfig } from "@/integrations/google-sheets/server";
+import {
+  appendSheetRow,
+  appendViaWebhook,
+  getSheetsConfig,
+  getSheetsWebhookUrl,
+} from "@/integrations/google-sheets/server";
 import { addBrevoContactServer, getBrevoApiKey } from "@/integrations/brevo/server";
 
 // La signature du jeton Google utilise le module crypto de Node.
@@ -36,9 +41,10 @@ export async function POST(request: Request) {
     );
   }
 
-  const config = getSheetsConfig();
-  if (!config) {
-    console.error("Configuration Google Sheets manquante (GOOGLE_SERVICE_ACCOUNT_EMAIL / GOOGLE_PRIVATE_KEY).");
+  const webhookUrl = getSheetsWebhookUrl();
+  const config = webhookUrl ? null : getSheetsConfig();
+  if (!webhookUrl && !config) {
+    console.error("Configuration Google Sheets manquante : renseigner GOOGLE_SHEETS_WEBHOOK_URL.");
     return json({ success: false, error: "Configuration serveur manquante" }, 500);
   }
 
@@ -58,7 +64,8 @@ export async function POST(request: Request) {
   ];
 
   try {
-    await appendSheetRow(config, row);
+    if (webhookUrl) await appendViaWebhook(webhookUrl, row);
+    else await appendSheetRow(config!, row);
   } catch (error) {
     console.error("Échec d'écriture Google Sheets :", error);
     return json({ success: false, error: "Échec de l'enregistrement" }, 502);

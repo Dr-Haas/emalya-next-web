@@ -86,3 +86,32 @@ export async function appendSheetRow(config: SheetsConfig, row: (string | number
     throw new Error(`Google Sheets append (${res.status}) : ${await res.text()}`);
   }
 }
+
+/**
+ * Méthode simple (recommandée) : un script Apps Script publié en « Application Web » depuis le tableau.
+ * Une seule variable : GOOGLE_SHEETS_WEBHOOK_URL (l'URL donnée par Google au déploiement).
+ * Aucun identifiant Google n'est stocké sur le site ; l'URL reste côté serveur.
+ */
+export function getSheetsWebhookUrl(): string | null {
+  return process.env.GOOGLE_SHEETS_WEBHOOK_URL?.trim() || null;
+}
+
+export async function appendViaWebhook(url: string, row: (string | number)[]): Promise<void> {
+  // Apps Script répond par une redirection 302 que fetch suit automatiquement.
+  const res = await fetch(url, {
+    method: "POST",
+    headers: { "Content-Type": "text/plain;charset=utf-8" },
+    body: JSON.stringify({ row }),
+    redirect: "follow",
+  });
+  const text = await res.text();
+  let ok = false;
+  try {
+    ok = res.ok && JSON.parse(text)?.success === true;
+  } catch {
+    ok = false;
+  }
+  if (!ok) {
+    throw new Error(`Apps Script (${res.status}) : ${text.slice(0, 300)}`);
+  }
+}
