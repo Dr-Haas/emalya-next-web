@@ -92,8 +92,13 @@ export async function appendSheetRow(config: SheetsConfig, row: (string | number
  * Une seule variable : GOOGLE_SHEETS_WEBHOOK_URL (l'URL donnée par Google au déploiement).
  * Aucun identifiant Google n'est stocké sur le site ; l'URL reste côté serveur.
  */
+// Script « Formulaire site emalya » (compte gary.h@dikio.fr), écrit dans le tableau du formulaire.
+// La variable GOOGLE_SHEETS_WEBHOOK_URL, si elle est définie sur Vercel, a priorité.
+const DEFAULT_WEBHOOK_URL =
+  "https://script.google.com/macros/s/AKfycbxxyAYFCuU7RwrafKEXsFTAGm4iXYCyKHu6V3RpxALjmJ3wWu5YIhb9ph-fuvfoZhCGJA/exec";
+
 export function getSheetsWebhookUrl(): string | null {
-  return process.env.GOOGLE_SHEETS_WEBHOOK_URL?.trim() || null;
+  return process.env.GOOGLE_SHEETS_WEBHOOK_URL?.trim() || DEFAULT_WEBHOOK_URL;
 }
 
 export async function appendViaWebhook(url: string, row: (string | number)[]): Promise<void> {
