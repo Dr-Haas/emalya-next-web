@@ -6,6 +6,10 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
+/** Vrai si l'utilisateur a demandé une réduction des animations : le contenu s'affiche alors directement. */
+export const prefersReducedMotion = () =>
+  typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
 export function useGsapFadeIn<T extends HTMLElement = HTMLDivElement>(options?: {
   y?: number;
   duration?: number;
@@ -15,7 +19,7 @@ export function useGsapFadeIn<T extends HTMLElement = HTMLDivElement>(options?: 
   const ref = useRef<T>(null);
 
   useEffect(() => {
-    if (!ref.current) return;
+    if (!ref.current || prefersReducedMotion()) return;
 
     const ctx = gsap.context(() => {
       gsap.fromTo(
@@ -55,7 +59,7 @@ export function useGsapStagger<T extends HTMLElement = HTMLDivElement>(
   const ref = useRef<T>(null);
 
   useEffect(() => {
-    if (!ref.current) return;
+    if (!ref.current || prefersReducedMotion()) return;
 
     const children = ref.current.querySelectorAll(childSelector);
     if (!children.length) return;

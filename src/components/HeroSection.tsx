@@ -4,12 +4,20 @@ import { ArrowRight } from "lucide-react";
 import { useEffect, useRef } from 'react';
 import Link from 'next/link';
 import gsap from 'gsap';
+import AnimatedWaves from '@/components/motion/AnimatedWaves';
+import { prefersReducedMotion } from '@/hooks/useGsapAnimations';
 
 const HeroSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (!sectionRef.current) return;
+
+    if (prefersReducedMotion()) {
+      // Contenu affiché directement, sans mouvement.
+      gsap.set(sectionRef.current.querySelectorAll('.hero-title, .hero-subtitle, .hero-cta > *'), { opacity: 1 });
+      return;
+    }
 
     const ctx = gsap.context(() => {
       const tl = gsap.timeline({ defaults: { ease: 'power3.out' } });
@@ -23,9 +31,9 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="relative min-h-screen flex items-center pt-20 pb-16">
-      <div className="absolute inset-0 -z-10">
-        <img src="/hero-bg.svg" alt="" className="w-full h-full object-cover" />
+    <section ref={sectionRef} className="relative isolate min-h-screen flex items-center pt-20 pb-16">
+      <div className="absolute inset-0 -z-10 overflow-hidden">
+        <AnimatedWaves />
       </div>
 
       <div className="container max-w-6xl mx-auto px-4 md:px-8">

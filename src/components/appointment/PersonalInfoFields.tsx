@@ -1,5 +1,4 @@
 import React from 'react';
-import { User, Mail, MapPin, Phone } from 'lucide-react';
 import {
   FormField,
   FormItem,
@@ -9,36 +8,7 @@ import {
 } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
 import { Control } from 'react-hook-form';
-import * as z from 'zod';
-
-const formSchema = z.object({
-  firstName: z.string().min(2, {
-    message: 'Le prénom doit contenir au moins 2 caractères.',
-  }),
-  lastName: z.string().min(2, {
-    message: 'Le nom doit contenir au moins 2 caractères.',
-  }),
-  email: z.string().email({
-    message: 'Veuillez entrer une adresse email valide.',
-  }),
-  address: z.string().min(5, {
-    message: "L'adresse doit contenir au moins 5 caractères.",
-  }),
-  postalCode: z.string().regex(/^\d{5}$/, {
-    message: 'Le code postal doit contenir 5 chiffres.',
-  }),
-  city: z.string().min(2, {
-    message: 'La ville doit contenir au moins 2 caractères.',
-  }),
-  acceptTerms: z.boolean().refine(val => val === true, {
-    message: 'Vous devez accepter les conditions.'
-  }),
-  phoneNumber: z.string().regex(/^(\+33|0)[1-9]\d{8}$/, {
-    message: 'Veuillez entrer un numéro de téléphone français valide.'
-  }),
-});
-
-type FormData = z.infer<typeof formSchema>;
+import { formSchema, type FormData } from '@/lib/appointmentSchema';
 
 interface PersonalInfoFieldsProps {
   control: Control<FormData>;

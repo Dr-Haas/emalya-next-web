@@ -5,7 +5,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
-import { formSchema, FormData } from "@/components/appointment/PersonalInfoFields";
+import { formSchema, normalizePhone, type FormData } from "@/lib/appointmentSchema";
 
 export const useAppointmentForm = () => {
   const router = useRouter();
@@ -34,7 +34,7 @@ export const useAppointmentForm = () => {
           firstName: data.firstName,
           lastName: data.lastName,
           email: data.email,
-          phoneNumber: data.phoneNumber,
+          phoneNumber: normalizePhone(data.phoneNumber),
           address: data.address,
           postalCode: data.postalCode,
           city: data.city,
@@ -53,7 +53,8 @@ export const useAppointmentForm = () => {
         body: JSON.stringify(payload),
       });
 
-      if (!response.ok) {
+      const result = await response.json().catch(() => null);
+      if (!response.ok || !result?.success) {
         throw new Error(`Erreur serveur: ${response.status}`);
       }
 
